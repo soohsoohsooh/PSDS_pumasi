@@ -1,4 +1,4 @@
-ls
+gls
 D4002047@KOHLAHK2007031 MINGW64 ~/Desktop/PUMASI
 $ cd ..
 
