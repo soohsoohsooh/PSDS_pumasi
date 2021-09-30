@@ -1,0 +1,80 @@
+ls
+D4002047@KOHLAHK2007031 MINGW64 ~/Desktop/PUMASI
+$ cd ..
+
+D4002047@KOHLAHK2007031 MINGW64 ~/Desktop
+$ cd PUMASI
+
+D4002047@KOHLAHK2007031 MINGW64 ~/Desktop/PUMASI
+$ ls
+
+D4002047@KOHLAHK2007031 MINGW64 ~/Desktop/PUMASI
+$ ls
+스터디3_황수현.pptx
+
+D4002047@KOHLAHK2007031 MINGW64 ~/Desktop/PUMASI
+$ git init
+Initialized empty Git repository in C:/Users/hkb/Desktop/PUMASI/.git/
+
+D4002047@KOHLAHK2007031 MINGW64 ~/Desktop/PUMASI (master)
+$ ls
+스터디3_황수현.pptx
+
+D4002047@KOHLAHK2007031 MINGW64 ~/Desktop/PUMASI (master)
+$ git add 스터디3_황수현.pptx
+
+D4002047@KOHLAHK2007031 MINGW64 ~/Desktop/PUMASI (master)
+$ git commit -m "upload study file"
+[master (root-commit) 993b1a3] upload study file
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 "\354\212\244\355\204\260\353\224\2243_\355\231\251\354\210\230\355\230\204.pptx"
+
+D4002047@KOHLAHK2007031 MINGW64 ~/Desktop/PUMASI (master)
+$ git remote add origin https://github.com/soohsoohsooh/PSDS_pumasi.git
+
+
+D4002047@KOHLAHK2007031 MINGW64 ~/Desktop/PUMASI (master)
+$ git push -u origin master
+remote: Permission to soohsoohsooh/PSDS_pumasi.git denied to kimgarden982.
+fatal: unable to access 'https://github.com/soohsoohsooh/PSDS_pumasi.git/': The requested URL returned error: 403
+
+D4002047@KOHLAHK2007031 MINGW64 ~/Desktop/PUMASI (master)
+$ git add check.csv
+warning: LF will be replaced by CRLF in check.csv.
+The file will have its original line endings in your working directory
+
+D4002047@KOHLAHK2007031 MINGW64 ~/Desktop/PUMASI (master)
+$ ls
+check.csv
+
+D4002047@KOHLAHK2007031 MINGW64 ~/Desktop/PUMASI (master)
+$ git add check.csv
+
+D4002047@KOHLAHK2007031 MINGW64 ~/Desktop/PUMASI (master)
+$ git commit -m "upload study file"
+[master 664a67d] upload study file
+ 1 file changed, 78 insertions(+)
+ create mode 100644 check.csv
+
+D4002047@KOHLAHK2007031 MINGW64 ~/Desktop/PUMASI (master)
+$ git push -u origin master
+remote: Permission to soohsoohsooh/PSDS_pumasi.git denied to kimgarden982.
+fatal: unable to access 'https://github.com/soohsoohsooh/PSDS_pumasi.git/': The requested URL returned error: 403
+
+D4002047@KOHLAHK2007031 MINGW64 ~/Desktop/PUMASI (master)
+$ ggit config --global user.email "user@inflearn.com"it 
+config --global user.name "user name"
+
+D4002047@KOHLAHK2007031 MINGW64 ~/Desktop/PUMASI (master)
+$
+
+D4002047@KOHLAHK2007031 MINGW64 ~/Desktop/PUMASI (master)
+$ git config --global user.email "soohsooh@postech.ac.kr"
+
+D4002047@KOHLAHK2007031 MINGW64 ~/Desktop/PUMASI (master)
+$ git push -u origin master
+remote: Permission to soohsoohsooh/PSDS_pumasi.git denied to kimgarden982.
+fatal: unable to access 'https://github.com/soohsoohsooh/PSDS_pumasi.git/': The requested URL returned error: 403
+
+D4002047@KOHLAHK2007031 MINGW64 ~/Desktop/PUMASI (master)
+$ git config --global user.email "soohsooh@postech.ac.kr"
